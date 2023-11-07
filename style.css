@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    margin: 5px;
+}
+
+#welcomeUser {
+    font-weight: bold;
+}
+
+.container h2 {
+    font-size: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+#loginSubmit,
+#regSubmit {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#loginSubmit:hover,
+#regSubmit:hover {
+    background-color: #45a049;
+}
+
+#goToRegister,
+#goToLogin {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#goToRegister:hover,
+#goToLogin:hover {
+    background-color: #007a9b;
+}
